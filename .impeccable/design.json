@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T17:44:44+00:00",
+  "title": "Design System: kanto62",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Cool Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.0029 264.5)",
+          "oklch(27% 0.0029 264.5)",
+          "oklch(38% 0.0029 264.5)",
+          "oklch(50% 0.0029 264.5)",
+          "oklch(61% 0.0029 264.5)",
+          "oklch(73% 0.0029 264.5)",
+          "oklch(84% 0.0029 264.5)",
+          "oklch(95% 0.0029 264.5)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Navy Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0407 265.0)",
+          "oklch(27% 0.0407 265.0)",
+          "oklch(38% 0.0407 265.0)",
+          "oklch(50% 0.0407 265.0)",
+          "oklch(61% 0.0407 265.0)",
+          "oklch(73% 0.0407 265.0)",
+          "oklch(84% 0.0407 265.0)",
+          "oklch(95% 0.0407 265.0)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Cool White",
+        "tonalRamp": [
+          "oklch(15% 0.0013 286.4)",
+          "oklch(27% 0.0013 286.4)",
+          "oklch(38% 0.0013 286.4)",
+          "oklch(50% 0.0013 286.4)",
+          "oklch(61% 0.0013 286.4)",
+          "oklch(73% 0.0013 286.4)",
+          "oklch(84% 0.0013 286.4)",
+          "oklch(95% 0.0013 286.4)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.2046 266.1)",
+          "oklch(27% 0.2046 266.1)",
+          "oklch(38% 0.2046 266.1)",
+          "oklch(50% 0.2046 266.1)",
+          "oklch(61% 0.2046 266.1)",
+          "oklch(73% 0.2046 266.1)",
+          "oklch(84% 0.2046 266.1)",
+          "oklch(95% 0.2046 266.1)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "primary",
+        "displayName": "On Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.0026 286.4)",
+          "oklch(27% 0.0026 286.4)",
+          "oklch(38% 0.0026 286.4)",
+          "oklch(50% 0.0026 286.4)",
+          "oklch(61% 0.0026 286.4)",
+          "oklch(73% 0.0026 286.4)",
+          "oklch(84% 0.0026 286.4)",
+          "oklch(95% 0.0026 286.4)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cool Mist",
+        "tonalRamp": [
+          "oklch(15% 0.0087 264.5)",
+          "oklch(27% 0.0087 264.5)",
+          "oklch(38% 0.0087 264.5)",
+          "oklch(50% 0.0087 264.5)",
+          "oklch(61% 0.0087 264.5)",
+          "oklch(73% 0.0087 264.5)",
+          "oklch(84% 0.0087 264.5)",
+          "oklch(95% 0.0087 264.5)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0444 261.9)",
+          "oklch(27% 0.0444 261.9)",
+          "oklch(38% 0.0444 261.9)",
+          "oklch(50% 0.0444 261.9)",
+          "oklch(61% 0.0444 261.9)",
+          "oklch(73% 0.0444 261.9)",
+          "oklch(84% 0.0444 261.9)",
+          "oklch(95% 0.0444 261.9)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Pale Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0225 269.4)",
+          "oklch(27% 0.0225 269.4)",
+          "oklch(38% 0.0225 269.4)",
+          "oklch(50% 0.0225 269.4)",
+          "oklch(61% 0.0225 269.4)",
+          "oklch(73% 0.0225 269.4)",
+          "oklch(84% 0.0225 269.4)",
+          "oklch(95% 0.0225 269.4)"
+        ]
+      },
+      "accent-foreground": {
+        "role": "primary",
+        "displayName": "Deep Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1482 266.3)",
+          "oklch(27% 0.1482 266.3)",
+          "oklch(38% 0.1482 266.3)",
+          "oklch(50% 0.1482 266.3)",
+          "oklch(61% 0.1482 266.3)",
+          "oklch(73% 0.1482 266.3)",
+          "oklch(84% 0.1482 266.3)",
+          "oklch(95% 0.1482 266.3)"
+        ]
+      },
+      "destructive": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.1620 22.9)",
+          "oklch(27% 0.1620 22.9)",
+          "oklch(38% 0.1620 22.9)",
+          "oklch(50% 0.1620 22.9)",
+          "oklch(61% 0.1620 22.9)",
+          "oklch(73% 0.1620 22.9)",
+          "oklch(84% 0.1620 22.9)",
+          "oklch(95% 0.1620 22.9)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Surface Border",
+        "tonalRamp": [
+          "oklch(15% 0.0163 262.8)",
+          "oklch(27% 0.0163 262.8)",
+          "oklch(38% 0.0163 262.8)",
+          "oklch(50% 0.0163 262.8)",
+          "oklch(61% 0.0163 262.8)",
+          "oklch(73% 0.0163 262.8)",
+          "oklch(84% 0.0163 262.8)",
+          "oklch(95% 0.0163 262.8)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.0471 260.4)",
+          "oklch(27% 0.0471 260.4)",
+          "oklch(38% 0.0471 260.4)",
+          "oklch(50% 0.0471 260.4)",
+          "oklch(61% 0.0471 260.4)",
+          "oklch(73% 0.0471 260.4)",
+          "oklch(84% 0.0471 260.4)",
+          "oklch(95% 0.0471 260.4)"
+        ]
+      },
+      "ring": {
+        "role": "primary",
+        "displayName": "Focus Blue",
+        "tonalRamp": [
+          "oklch(15% 0.2005 265.5)",
+          "oklch(27% 0.2005 265.5)",
+          "oklch(38% 0.2005 265.5)",
+          "oklch(50% 0.2005 265.5)",
+          "oklch(61% 0.2005 265.5)",
+          "oklch(73% 0.2005 265.5)",
+          "oklch(84% 0.2005 265.5)",
+          "oklch(95% 0.2005 265.5)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Night Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.0295 266.1)",
+          "oklch(27% 0.0295 266.1)",
+          "oklch(38% 0.0295 266.1)",
+          "oklch(50% 0.0295 266.1)",
+          "oklch(61% 0.0295 266.1)",
+          "oklch(73% 0.0295 266.1)",
+          "oklch(84% 0.0295 266.1)",
+          "oklch(95% 0.0295 266.1)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Light Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0125 271.3)",
+          "oklch(27% 0.0125 271.3)",
+          "oklch(38% 0.0125 271.3)",
+          "oklch(50% 0.0125 271.3)",
+          "oklch(61% 0.0125 271.3)",
+          "oklch(73% 0.0125 271.3)",
+          "oklch(84% 0.0125 271.3)",
+          "oklch(95% 0.0125 271.3)"
+        ]
+      },
+      "dark-card": {
+        "role": "neutral",
+        "displayName": "Night Card",
+        "tonalRamp": [
+          "oklch(15% 0.0339 268.9)",
+          "oklch(27% 0.0339 268.9)",
+          "oklch(38% 0.0339 268.9)",
+          "oklch(50% 0.0339 268.9)",
+          "oklch(61% 0.0339 268.9)",
+          "oklch(73% 0.0339 268.9)",
+          "oklch(84% 0.0339 268.9)",
+          "oklch(95% 0.0339 268.9)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Light Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.1002 272.7)",
+          "oklch(27% 0.1002 272.7)",
+          "oklch(38% 0.1002 272.7)",
+          "oklch(50% 0.1002 272.7)",
+          "oklch(61% 0.1002 272.7)",
+          "oklch(73% 0.1002 272.7)",
+          "oklch(84% 0.1002 272.7)",
+          "oklch(95% 0.1002 272.7)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "primary",
+        "displayName": "On Light Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.0790 264.7)",
+          "oklch(27% 0.0790 264.7)",
+          "oklch(38% 0.0790 264.7)",
+          "oklch(50% 0.0790 264.7)",
+          "oklch(61% 0.0790 264.7)",
+          "oklch(73% 0.0790 264.7)",
+          "oklch(84% 0.0790 264.7)",
+          "oklch(95% 0.0790 264.7)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Night Mist",
+        "tonalRamp": [
+          "oklch(15% 0.0404 266.2)",
+          "oklch(27% 0.0404 266.2)",
+          "oklch(38% 0.0404 266.2)",
+          "oklch(50% 0.0404 266.2)",
+          "oklch(61% 0.0404 266.2)",
+          "oklch(73% 0.0404 266.2)",
+          "oklch(84% 0.0404 266.2)",
+          "oklch(95% 0.0404 266.2)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Light Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0363 264.4)",
+          "oklch(27% 0.0363 264.4)",
+          "oklch(38% 0.0363 264.4)",
+          "oklch(50% 0.0363 264.4)",
+          "oklch(61% 0.0363 264.4)",
+          "oklch(73% 0.0363 264.4)",
+          "oklch(84% 0.0363 264.4)",
+          "oklch(95% 0.0363 264.4)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Tinted Navy",
+        "tonalRamp": [
+          "oklch(15% 0.0545 261.1)",
+          "oklch(27% 0.0545 261.1)",
+          "oklch(38% 0.0545 261.1)",
+          "oklch(50% 0.0545 261.1)",
+          "oklch(61% 0.0545 261.1)",
+          "oklch(73% 0.0545 261.1)",
+          "oklch(84% 0.0545 261.1)",
+          "oklch(95% 0.0545 261.1)"
+        ]
+      },
+      "dark-accent-foreground": {
+        "role": "primary",
+        "displayName": "Pale Blue Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0675 271.1)",
+          "oklch(27% 0.0675 271.1)",
+          "oklch(38% 0.0675 271.1)",
+          "oklch(50% 0.0675 271.1)",
+          "oklch(61% 0.0675 271.1)",
+          "oklch(73% 0.0675 271.1)",
+          "oklch(84% 0.0675 271.1)",
+          "oklch(95% 0.0675 271.1)"
+        ]
+      },
+      "dark-destructive": {
+        "role": "neutral",
+        "displayName": "Light Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.0877 17.3)",
+          "oklch(27% 0.0877 17.3)",
+          "oklch(38% 0.0877 17.3)",
+          "oklch(50% 0.0877 17.3)",
+          "oklch(61% 0.0877 17.3)",
+          "oklch(73% 0.0877 17.3)",
+          "oklch(84% 0.0877 17.3)",
+          "oklch(95% 0.0877 17.3)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Night Surface Border",
+        "tonalRamp": [
+          "oklch(15% 0.0430 263.1)",
+          "oklch(27% 0.0430 263.1)",
+          "oklch(38% 0.0430 263.1)",
+          "oklch(50% 0.0430 263.1)",
+          "oklch(61% 0.0430 263.1)",
+          "oklch(73% 0.0430 263.1)",
+          "oklch(84% 0.0430 263.1)",
+          "oklch(95% 0.0430 263.1)"
+        ]
+      },
+      "dark-input": {
+        "role": "neutral",
+        "displayName": "Night Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.0475 261.6)",
+          "oklch(27% 0.0475 261.6)",
+          "oklch(38% 0.0475 261.6)",
+          "oklch(50% 0.0475 261.6)",
+          "oklch(61% 0.0475 261.6)",
+          "oklch(73% 0.0475 261.6)",
+          "oklch(84% 0.0475 261.6)",
+          "oklch(95% 0.0475 261.6)"
+        ]
+      },
+      "dark-ring": {
+        "role": "primary",
+        "displayName": "Light Focus Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1242 271.1)",
+          "oklch(27% 0.1242 271.1)",
+          "oklch(38% 0.1242 271.1)",
+          "oklch(50% 0.1242 271.1)",
+          "oklch(61% 0.1242 271.1)",
+          "oklch(73% 0.1242 271.1)",
+          "oklch(84% 0.1242 271.1)",
+          "oklch(95% 0.1242 271.1)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Homepage headline. Service banners use a maximum size of 4.5rem.",
+        "responsiveFontSizes": {
+          "base": "clamp(2.5rem, 4.55vw, 4.5rem)"
+        }
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Public section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Category titles and comparable content headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Page copy and form text."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Button, filter, and navigation labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact metadata badges."
+      }
+    },
+    "shadows": [
+      {
+        "name": "xs",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "purpose": "Composite homepage search edge."
+      },
+      {
+        "name": "sm",
+        "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+        "purpose": "Floating workspace sidebar."
+      },
+      {
+        "name": "md",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Directory map markers."
+      },
+      {
+        "name": "card-edge",
+        "value": "0 0 0 1px color-mix(in oklab, var(--foreground) 10%, transparent)",
+        "purpose": "Thin card outline."
+      }
+    ],
+    "motion": [
+      {
+        "name": "default-transition",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Shared hover and focus transitions."
+      },
+      {
+        "name": "sidebar-transition",
+        "value": "200ms linear",
+        "purpose": "Workspace sidebar sizing on desktop. The workspace shell disables this transition when reduced motion is requested."
+      },
+      {
+        "name": "category-image-hover",
+        "value": "300ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Category image scales to 105% when hovered and reduced motion is off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Search",
+      "html": "<button type=\"button\" class=\"ds-button\">Search</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; height:40px; padding:0 10px; border:1px solid transparent; border-radius:var(--radius, 10px); background:var(--primary, #294fd1); background-clip:padding-box; color:var(--primary-foreground, #fdfdff); font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); white-space:nowrap; cursor:pointer; transition:all 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-button:hover { background:color-mix(in oklab, var(--primary, #294fd1) 90%, transparent); } .ds-button:focus-visible { outline:0; border-color:var(--ring, #2f5ad9); box-shadow:0 0 0 3px color-mix(in oklab, var(--ring, #2f5ad9) 50%, transparent); } .ds-button:active { transform:translateY(1px); } .ds-button:disabled { opacity:.5; pointer-events:none; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Explore map",
+      "html": "<button type=\"button\" class=\"ds-button\">Explore map</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; height:40px; padding:0 10px; border:1px solid var(--border, #dce2ed); border-radius:var(--radius, 10px); background:var(--background, #f9fafc); background-clip:padding-box; color:var(--foreground, #161f33); font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); white-space:nowrap; cursor:pointer; transition:all 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-button:hover { background:var(--muted, #eef1f7); } .ds-button:focus-visible { outline:0; border-color:var(--ring, #2f5ad9); box-shadow:0 0 0 3px color-mix(in oklab, var(--ring, #2f5ad9) 50%, transparent); } .ds-button:active { transform:translateY(1px); } .ds-button:disabled { opacity:.5; pointer-events:none; } :host-context([data-theme=\"dark\"]) .ds-button { border-color:var(--input, #687894); background:color-mix(in oklab, var(--input, #687894) 30%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-button { border-color:var(--input, #687894); background:color-mix(in oklab, var(--input, #687894) 30%, transparent); } } :host-context([data-theme=\"dark\"]) .ds-button:hover { background:color-mix(in oklab, var(--input, #687894) 50%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-button:hover { background:color-mix(in oklab, var(--input, #687894) 50%, transparent); } }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Book a demo",
+      "html": "<button type=\"button\" class=\"ds-button\">Book a demo</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; height:40px; padding:0 10px; border:1px solid transparent; border-radius:var(--radius, 10px); background:transparent; background-clip:padding-box; color:var(--foreground, #161f33); font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); white-space:nowrap; cursor:pointer; transition:all 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-button:hover { background:var(--muted, #eef1f7); } .ds-button:focus-visible { outline:0; border-color:var(--ring, #2f5ad9); box-shadow:0 0 0 3px color-mix(in oklab, var(--ring, #2f5ad9) 50%, transparent); } .ds-button:active { transform:translateY(1px); } .ds-button:disabled { opacity:.5; pointer-events:none; } :host-context([data-theme=\"dark\"]) .ds-button:hover { background:color-mix(in oklab, var(--muted, #242d42) 50%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-button:hover { background:color-mix(in oklab, var(--muted, #242d42) 50%, transparent); } }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A standalone field with a stronger stroke and a visible focus ring.",
+      "html": "<input class=\"ds-field\" type=\"text\" aria-label=\"Business name\" placeholder=\"Business name\">",
+      "css": ".ds-field { display:block; width:min(100%, 320px); height:40px; padding:4px 10px; border:1px solid var(--input, #7485a1); border-radius:var(--radius, 10px); background:transparent; color:var(--foreground, #161f33); font:400 16px/24px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); box-sizing:border-box; transition:color 150ms cubic-bezier(0.4, 0, 0.2, 1), border-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-field::placeholder { color:var(--muted-foreground, #4c5a73); } .ds-field:focus-visible { outline:0; border-color:var(--ring, #2f5ad9); box-shadow:0 0 0 3px color-mix(in oklab, var(--ring, #2f5ad9) 50%, transparent); } .ds-field[aria-invalid=true] { border-color:var(--destructive, #a82a31); } .ds-field:disabled { opacity:.5; } @media (min-width:768px) { .ds-field { font-size:14px; line-height:20px; } } :host-context([data-theme=\"dark\"]) .ds-field { background:color-mix(in oklab, var(--input, #687894) 30%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-field { background:color-mix(in oklab, var(--input, #687894) 30%, transparent); } } .ds-field[aria-invalid=true]:focus-visible { box-shadow:0 0 0 3px color-mix(in oklab, var(--destructive, #a82a31) 20%, transparent); } :host-context([data-theme=\"dark\"]) .ds-field[aria-invalid=true] { border-color:color-mix(in oklab, var(--destructive, #ffb4b6) 50%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-field[aria-invalid=true] { border-color:color-mix(in oklab, var(--destructive, #ffb4b6) 50%, transparent); } } :host-context([data-theme=\"dark\"]) .ds-field[aria-invalid=true]:focus-visible { box-shadow:0 0 0 3px color-mix(in oklab, var(--destructive, #ffb4b6) 40%, transparent); } @media (prefers-color-scheme:dark) { :host-context(:root:not([data-theme=\"light\"])) .ds-field[aria-invalid=true]:focus-visible { box-shadow:0 0 0 3px color-mix(in oklab, var(--destructive, #ffb4b6) 40%, transparent); } }"
+    },
+    {
+      "name": "Secondary Badge",
+      "kind": "chip",
+      "refersTo": "badge-secondary",
+      "description": "A neutral category or status label.",
+      "html": "<span class=\"ds-badge\">Food &amp; dining</span>",
+      "css": ".ds-badge { display:inline-flex; align-items:center; justify-content:center; height:20px; padding:2px 8px; border:1px solid transparent; border-radius:32px; background:var(--muted, #eef1f7); color:var(--foreground, #161f33); font:500 12px/16px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); white-space:nowrap; box-sizing:border-box; } "
+    },
+    {
+      "name": "Directory Filters",
+      "kind": "chip",
+      "refersTo": "category-current",
+      "description": "Current categories use a tinted fill and retain the search.",
+      "html": "<nav class=\"ds-filters\" aria-label=\"Filter by category\"><a href=\"/directory\" aria-current=\"true\">All businesses</a><a href=\"/directory?category=restaurant\">Food &amp; dining</a></nav>",
+      "css": ".ds-filters { display:flex; flex-wrap:wrap; gap:8px; } .ds-filters a { display:inline-flex; padding:6px 12px; border:1px solid var(--border, #dce2ed); border-radius:var(--radius, 10px); background:var(--card, #fefeff); color:var(--foreground, #161f33); font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); text-decoration:none; } .ds-filters a:hover { background:var(--muted, #eef1f7); } .ds-filters a[aria-current] { border-color:color-mix(in oklab, var(--primary, #294fd1) 25%, transparent); background:var(--accent, #e9efff); color:var(--primary, #294fd1); } .ds-filters a:focus-visible { outline:2px solid var(--ring, #2f5ad9); outline-offset:2px; }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "A thin edge frames content on the shared raised surface.",
+      "html": "<article class=\"ds-card\"><h3>Saved prospects</h3><p>Track product opportunities and plan your next follow-up.</p></article>",
+      "css": ".ds-card { display:flex; flex-direction:column; gap:4px; overflow:hidden; padding:16px; border-radius:calc(var(--radius, 10px) + 4px); background:var(--card, #fefeff); color:var(--foreground, #161f33); box-shadow:0 0 0 1px color-mix(in oklab, var(--foreground, #161f33) 10%, transparent); font:400 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); } .ds-card h3 { margin:0; font-size:16px; font-weight:500; line-height:1.375; } .ds-card p { margin:0; color:var(--muted-foreground, #4c5a73); }"
+    },
+    {
+      "name": "Public Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "The current route stays visible as a blue tint.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/directory\" aria-current=\"page\">Directory</a><a href=\"/services\">Services</a><a href=\"/articles\">Articles</a></nav>",
+      "css": ".ds-nav { display:flex; flex-wrap:wrap; align-items:center; gap:4px; } .ds-nav a { padding:8px 12px; border-radius:calc(var(--radius, 10px) - 2px); color:var(--muted-foreground, #4c5a73); font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); text-decoration:none; transition:color 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-nav a:hover { background:var(--muted, #eef1f7); color:var(--foreground, #161f33); } .ds-nav a[aria-current=page] { background:var(--accent, #e9efff); color:var(--accent-foreground, #233f97); } .ds-nav a:focus-visible { outline:2px solid var(--ring, #2f5ad9); outline-offset:2px; }"
+    },
+    {
+      "name": "Directory Search",
+      "kind": "custom",
+      "refersTo": "field",
+      "description": "A single frame joins the field and its primary action.",
+      "html": "<form class=\"ds-search\" action=\"/directory\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg><input type=\"search\" name=\"q\" aria-label=\"Search the Davao directory\" placeholder=\"Business or barangay\"><button type=\"submit\">Search</button></form>",
+      "css": ".ds-search { display:flex; align-items:center; gap:8px; width:min(100%, 448px); min-width:0; padding:6px; border:1px solid var(--input, #7485a1); border-radius:var(--radius, 10px); background:var(--card, #fefeff); box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05); box-sizing:border-box; } .ds-search:focus-within { box-shadow:0 0 0 2px color-mix(in oklab, var(--ring, #2f5ad9) 40%, transparent), 0 1px 2px 0 rgb(0 0 0 / 0.05); } .ds-search svg { flex:none; margin-left:8px; color:var(--muted-foreground, #4c5a73); } .ds-search input { flex:1 1 0; min-width:0; height:40px; border:0; outline:0; background:transparent; padding:0 4px; color:var(--foreground, #161f33); font:400 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); } .ds-search input::placeholder { color:var(--muted-foreground, #4c5a73); } .ds-search button { height:40px; border:1px solid transparent; border-radius:var(--radius, 10px); background:var(--primary, #294fd1); color:var(--primary-foreground, #fdfdff); padding:0 16px; font:500 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); cursor:pointer; transition:all 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-search button:hover { background:color-mix(in oklab, var(--primary, #294fd1) 90%, transparent); } .ds-search button:focus-visible { outline:2px solid var(--ring, #2f5ad9); outline-offset:2px; } .ds-search button:active { transform:translateY(1px); }"
+    },
+    {
+      "name": "Form Feedback",
+      "kind": "custom",
+      "refersTo": "form-status",
+      "description": "An inline status or error beside a merchant form action.",
+      "html": "<p class=\"ds-feedback\" role=\"status\">Storefront published.</p>",
+      "css": ".ds-feedback { margin:0; border:1px solid color-mix(in oklab, var(--primary, #294fd1) 25%, transparent); border-radius:var(--radius, 10px); background:var(--accent, #e9efff); color:var(--accent-foreground, #233f97); padding:12px; font:400 14px/20px var(--font-sans, \"Instrument Sans\", Arial, sans-serif); } .ds-feedback[role=alert] { border-color:color-mix(in oklab, var(--destructive, #a82a31) 30%, transparent); background:color-mix(in oklab, var(--destructive, #a82a31) 8%, transparent); color:var(--destructive, #a82a31); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Davao neighborhood directory",
+    "overview": "The public site uses locally relevant imagery and plain labels to make the directory feel familiar. Search and map controls stay close to the places they describe. Photography shows everyday settings, and the homepage identifies its street scene as illustrative.\n\nThe merchant and studio workspaces carry the same cool surfaces, type, and cobalt actions into denser navigation, forms, and records. Dividers and consistent alignment let users scan lists and find their next action.",
+    "keyCharacteristics": [
+      "Davao street scenes and category photography on public surfaces.",
+      "Cool neutrals, cobalt actions, and pale blue selection states.",
+      "Shared shadcn components with a compact workspace layout."
+    ],
+    "rules": [
+      {
+        "name": "The Primary Accent Rule",
+        "body": "Use cobalt for primary actions, links, and selection cues. Use the neutral palette for surrounding surfaces and secondary controls.",
+        "section": "colors"
+      },
+      {
+        "name": "The Surface Boundaries Rule",
+        "body": "Group content with surface colors, thin edges, and dividers. Use soft shadows where a control sits against the page or map.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the shared semantic colors so surfaces, controls, and focus respond to Light, Dark, and System.",
+      "Do use locally relevant public imagery and label illustrative scenes when the distinction matters.",
+      "Do use the shadcn Radix primitives and Tailwind utilities for shared control and layout patterns.",
+      "Do pair color changes with meaningful labels and keyboard focus for interactive states."
+    ],
+    "donts": []
+  }
+}

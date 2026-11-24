@@ -1,0 +1,5 @@
+{
+  "source": "Built-in ImageGen with the user-supplied landing visual reference",
+  "prompt": "Transparent editorial spot illustration of a Davao shop owner with a laptop and small storefront. The reference supplies the merchant illustration style.",
+  "transparentBackground": true
+}

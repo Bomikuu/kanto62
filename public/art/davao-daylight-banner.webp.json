@@ -1,0 +1,5 @@
+{
+  "source": "Built-in ImageGen with the user-supplied landing visual reference",
+  "prompt": "Transparent Davao street scene with a cobalt cafe awning and acacia canopy. The reference supplies composition and daylight palette.",
+  "transparentBackground": true
+}
